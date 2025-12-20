@@ -88,7 +88,7 @@ SERVERNAME Coolstation
 #SERVERSUFFIX
 SERVERREGION Development
 
-CDN https://rsc.tgstation13.org/
+CDN http://rsc.tgstation13.org/
 ENV prod
 
 # SpaceBee/SpaceButt communications stuff.
@@ -96,6 +96,7 @@ ENV prod
 # IRCLOG_URL is where your receiving end is.
 #IRCBOT_API testkeypleaseignore
 #IRCLOG_URL http://127.0.0.1:42069
+
 
 
 
