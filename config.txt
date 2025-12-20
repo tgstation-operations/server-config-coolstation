@@ -1,5 +1,7 @@
 #This file only functions for local development. This file does not change values on production.
 
+INCLUDE config/apitoken.txt
+
 SERVER_SPECIFIC_CONFIGS
 
 # log OOC channel
@@ -87,10 +89,11 @@ SERVERNAME Coolstation
 SERVERREGION Development
 
 CDN https://cdn.coolstation.space
-ENV dev
+ENV prod
 
 # SpaceBee/SpaceButt communications stuff.
 # IRCBOT_API must match whatever you have set on the receiving end. Case sensitive.
 # IRCLOG_URL is where your receiving end is.
 #IRCBOT_API testkeypleaseignore
 #IRCLOG_URL http://127.0.0.1:42069
+
