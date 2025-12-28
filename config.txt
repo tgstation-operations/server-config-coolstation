@@ -86,16 +86,26 @@ NORESPAWN
 # Server Name
 SERVERNAME Coolstation
 #SERVERSUFFIX
-SERVERREGION Development
+#SERVERREGION
 
 CDN http://cdn.coolstation.space/
+RSC http://rsc.tgstation13.org/
 ENV prod
+
+# Api stuff
+# Needs to match API version else the API will refuse requests
+OPENGOON_API_VERSION 1.4
+OPENGOON_API_ENDPOINT http://127.0.0.1:8086/api
+# Used for the bans panel
+#OPENGOON_API_SECURE_ENDPOINT https://webhooks.mcterra.id.au/secure-api
+#OPENGOON_API_IP 127.0.0.1
 
 # SpaceBee/SpaceButt communications stuff.
 # IRCBOT_API must match whatever you have set on the receiving end. Case sensitive.
 # IRCLOG_URL is where your receiving end is.
 #IRCBOT_API testkeypleaseignore
 #IRCLOG_URL http://127.0.0.1:42069
+
 
 
 
