@@ -86,25 +86,31 @@ NORESPAWN
 # Server Name
 SERVERNAME Coolstation
 #SERVERSUFFIX
-#SERVERREGION
+SERVERREGION LLJK 2
 
 CDN http://cdn.coolstation.space/
 RSC http://rsc.tgstation13.org/
 ENV prod
 
+MEDALHUB Warc.COOLSTATIONHALLOFHAME
+MEDALPASS AtaCertainPointYouCanJustForgetAboutDictionaryAttacksAndJustGoForLengthTbph
+
 # Api stuff
 # Needs to match API version else the API will refuse requests
 OPENGOON_API_VERSION 1.7
-OPENGOON_API_ENDPOINT http://127.0.0.1:8086/api
-# Used for the bans panel
-#OPENGOON_API_SECURE_ENDPOINT https://webhooks.mcterra.id.au/secure-api
-#OPENGOON_API_IP 127.0.0.1
+# internal api endpoint (fusilli)
+OPENGOON_API_ENDPOINT http://74.91.125.219:8086
+# external api endpoint (for ban panel, etc)
+OPENGOON_API_SECURE_ENDPOINT https://fusilli.coolstation.space
+OPENGOON_API_IP 74.91.125.219
+OPENGOON_API_TOKEN auth_key_with_the_boots_with_the_fur
 
 # SpaceBee/SpaceButt communications stuff.
 # IRCBOT_API must match whatever you have set on the receiving end. Case sensitive.
 # IRCLOG_URL is where your receiving end is.
 #IRCBOT_API testkeypleaseignore
-#IRCLOG_URL http://127.0.0.1:42069
+#IRCLOG_URL http://74.91.125.219:42069
+
 
 
 
