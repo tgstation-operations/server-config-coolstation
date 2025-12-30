@@ -99,7 +99,7 @@ MEDALPASS AtaCertainPointYouCanJustForgetAboutDictionaryAttacksAndJustGoForLengt
 # Needs to match API version else the API will refuse requests
 OPENGOON_API_VERSION 1.7
 # internal api endpoint (fusilli)
-OPENGOON_API_ENDPOINT http://74.91.125.219:8086
+OPENGOON_API_ENDPOINT http://74.91.125.219:8086/api
 # external api endpoint (for ban panel, etc)
 OPENGOON_API_SECURE_ENDPOINT https://fusilli.coolstation.space
 OPENGOON_API_IP 74.91.125.219
@@ -110,6 +110,7 @@ OPENGOON_API_TOKEN auth_key_with_the_boots_with_the_fur
 # IRCLOG_URL is where your receiving end is.
 #IRCBOT_API testkeypleaseignore
 #IRCLOG_URL http://74.91.125.219:42069
+
 
 
 
