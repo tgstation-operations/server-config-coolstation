@@ -88,7 +88,7 @@ SERVERNAME Coolstation
 #SERVERSUFFIX
 SERVERREGION LLJK 2
 
-# CDN http://cdn.coolstation.space/
+CDN http://cdn.coolstation.space/
 RSC http://rsc.tgstation13.org/
 ENV prod
 
@@ -110,6 +110,7 @@ OPENGOON_API_TOKEN auth_key_with_the_boots_with_the_fur
 # IRCLOG_URL is where your receiving end is.
 #IRCBOT_API testkeypleaseignore
 #IRCLOG_URL http://74.91.125.219:42069
+
 
 
 
