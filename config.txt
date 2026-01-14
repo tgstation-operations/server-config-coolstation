@@ -1,4 +1,4 @@
-#This file only functions for local development. This file does not change values on production.
+# these are the prod values.
 
 INCLUDE config/apitoken.txt
 
@@ -77,6 +77,9 @@ SPY_THEFT_MIN_PLAYERS 10
 # allow AI job
 ALLOW_AI
 
+# allow map switching
+ALLOW_MAP_SWITCHING
+
 # goon authentication
 # AUTHENTICATION
 
@@ -110,6 +113,7 @@ OPENGOON_API_TOKEN auth_key_with_the_boots_with_the_fur
 # IRCLOG_URL is where your receiving end is.
 #IRCBOT_API testkeypleaseignore
 #IRCLOG_URL http://74.91.125.219:42069
+
 
 
 
