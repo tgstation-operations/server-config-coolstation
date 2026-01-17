@@ -80,6 +80,9 @@ ALLOW_AI
 # allow map switching
 ALLOW_MAP_SWITCHING
 
+# reboot modes: 0 - normal / 1 - shutdown / 2 - hard restart
+REBOOT_MODE 2
+
 # goon authentication
 # AUTHENTICATION
 
@@ -113,6 +116,7 @@ OPENGOON_API_TOKEN auth_key_with_the_boots_with_the_fur
 # IRCLOG_URL is where your receiving end is.
 #IRCBOT_API testkeypleaseignore
 #IRCLOG_URL http://74.91.125.219:42069
+
 
 
 
